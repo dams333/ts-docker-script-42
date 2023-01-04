@@ -19,5 +19,5 @@ node_docker
 You can add any argument to `docker run` command, like:
 
 ```bash
-node_docker -p 3000:3000 -p 80:80
+node_docker "-p 3000:3000 -p 80:80"
 ```
