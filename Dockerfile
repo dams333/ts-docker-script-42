@@ -1,7 +1,7 @@
 FROM node:latest
 
 RUN npm install --location=global npm@latest
-RUN npm install --location=global typescript
+RUN npm install --location=global typescript @nestjs/cli pnpm vite
 
 RUN mkdir -p /file
 
